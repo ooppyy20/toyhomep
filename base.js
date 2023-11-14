@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 
     // sound
-    var bg_sound = new Audio('/resources/sound/Home for the Holidays - TrackTribe.mp3');
+    var bg_sound = new Audio('resources/sound/Home for the Holidays - TrackTribe.mp3');
     bg_sound.play();
     bg_sound.loop = true;
 
@@ -48,7 +48,7 @@ $(document).ready(function(){
     });
 
     $(".picture").on("click", function(){
-        var str = '/resources/image/bg'+Math.floor(Math.random()*5+1)+'.jpg';
+        var str = 'resources/image/bg'+Math.floor(Math.random()*5+1)+'.jpg';
         $(".content").css("background-image", "url("+str+")");
     });
 
