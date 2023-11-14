@@ -1,6 +1,19 @@
 <script async src="resources/script/jquery-3.7.1.min.js"></script>
 <script async src="resources/script/jquery-ui.min.js"></script>
 
+var AudioContext;
+var audioContext;
+
+window.onload = function() {
+    navigator.mediaDevices.getUserMedia({ audio: true }).then(() => {
+        AudioContext = window.AudioContext || window.webkitAudioContext;
+        audioContext = new AudioContext();
+    }).catch(e => {
+        console.error(`Audio permissions denied: ${e}`);
+    });
+}
+
+
 $(document).ready(function(){
 
     // toy-box x scroll
