@@ -1,16 +1,16 @@
 @font-face {
 font-family: "GothicA1";
-src: url("/resources/font/GothicA1-Bold.ttf") format("truetype");
+src: url("resources/font/GothicA1-Bold.ttf") format("truetype");
 font-weight: bold;
 }
 @font-face {
 font-family: "GothicA1";
-src: url("/resources/font/GothicA1-Regular.ttf") format("truetype");
+src: url("resources/font/GothicA1-Regular.ttf") format("truetype");
 font-weight: normal;
 }
 @font-face {
 font-family: "GothicA1";
-src: url("/resources/font/GothicA1-Light.ttf") format("truetype");
+src: url("resources/font/GothicA1-Light.ttf") format("truetype");
 font-weight: lighter;
 }
 
@@ -47,7 +47,7 @@ body {
     position: relative;
     border-radius: 2px;
     background-size: cover;
-    background-image: url("/resources/image/bg1.jpg");
+    background-image: url("resources/image/bg1.jpg");
     overflow: hidden;
 }
 .content .title {
@@ -150,78 +150,78 @@ body {
     top: 2px; left: 360px;
     z-index: 100;
     width: 180px;
-    content: url("/resources/image/9-1.png");
+    content: url("resources/image/9-1.png");
 }
 .chapstick:hover {
     transition: all 0.5s ease-in;
     transform: scale(1.1) rotate(3deg); 
 }
 .chapstick[status="on"] {
-    content: url("/resources/image/9-2.png");
+    content: url("resources/image/9-2.png");
 }
 
 .roseglass {
     top: 550px; left: 100px;
-    content: url("/resources/image/10-1.png");
+    content: url("resources/image/10-1.png");
 }
 .roseglass-top {
     top: 550px; left: 200px;
-    content: url("/resources/image/10-2.png");
+    content: url("resources/image/10-2.png");
 }
 
 .smalldog {
     top: 550px; left: 362px; 
     animation: smalldog 2.5s linear infinite;
-    content: url("/resources/image/7-1.png");
+    content: url("resources/image/7-1.png");
 }
 @keyframes smalldog {
-    0%  { content: url("/resources/image/7-1.png"); }
-    16% { content: url("/resources/image/7-2.png"); }
-    32% { content: url("/resources/image/7-3.png"); }
-    49% { content: url("/resources/image/7-4.png"); }
-    65% { content: url("/resources/image/7-5.png"); }
-    81% { content: url("/resources/image/7-6.png"); }
-    90% { content: url("/resources/image/7-7.png"); }
+    0%  { content: url("resources/image/7-1.png"); }
+    16% { content: url("resources/image/7-2.png"); }
+    32% { content: url("resources/image/7-3.png"); }
+    49% { content: url("resources/image/7-4.png"); }
+    65% { content: url("resources/image/7-5.png"); }
+    81% { content: url("resources/image/7-6.png"); }
+    90% { content: url("resources/image/7-7.png"); }
 }
 
 .bigdog {
     top: 550px; left: 418px; 
     animation: bigdog 2.5s linear infinite;
-    content: url("/resources/image/6-1.png");
+    content: url("resources/image/6-1.png");
 }
 @keyframes bigdog {
-    0%  { content: url("/resources/image/6-1.png"); }
-    30% { content: url("/resources/image/6-2.png"); }
-    40% { content: url("/resources/image/6-3.png"); }
-    60% { content: url("/resources/image/6-4.png"); }
-    70% { content: url("/resources/image/6-5.png"); }
-    100%{ content: url("/resources/image/6-6.png"); }
+    0%  { content: url("resources/image/6-1.png"); }
+    30% { content: url("resources/image/6-2.png"); }
+    40% { content: url("resources/image/6-3.png"); }
+    60% { content: url("resources/image/6-4.png"); }
+    70% { content: url("resources/image/6-5.png"); }
+    100%{ content: url("resources/image/6-6.png"); }
 }
 
 .olive {
     top: 550px; left: 556px;
     width: 100px;
     z-index: 30;
-    content: url("/resources/image/8-1.png");
+    content: url("resources/image/8-1.png");
 }
 
 .cup {
     top: 550px; left: 657px;
     width: 200px;
-    content: url("/resources/image/3.png");
+    content: url("resources/image/3.png");
 }
 
 
 .picture {
     top: 550px; left: 739px;
     transform: rotate(30);
-    content: url("/resources/image/1.png");
+    content: url("resources/image/1.png");
 }
 
 
 .crown {
     top: 550px; left: 837px;
-    content: url("/resources/image/5.png");
+    content: url("resources/image/5.png");
 }
 
 
@@ -241,11 +241,11 @@ body {
     position: absolute;
     width: inherit;
     z-index: 15;
-    content: url("/resources/image/4-1.png");
+    content: url("resources/image/4-1.png");
 }
 .ravi .back {
     display: inline;
     position: relative;
     width: inherit;
-    content: url("/resources/image/4-6.png");
+    content: url("resources/image/4-6.png");
 }
