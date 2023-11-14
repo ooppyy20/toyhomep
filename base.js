@@ -1,3 +1,6 @@
+<script async src="resources/script/jquery-3.7.1.min.js"></script>
+<script async src="resources/script/jquery-ui.min.js"></script>
+
 $(document).ready(function(){
 
     // toy-box x scroll
@@ -29,7 +32,7 @@ $(document).ready(function(){
     bg_sound.loop = true;
 
     $(".toy").on("click", function(){
-        var str = '/resources/sound/paper-'+Math.floor(Math.random()*8+1)+'.mp3'
+        var str = 'resources/sound/paper-'+Math.floor(Math.random()*8+1)+'.mp3'
         var paper_sound = new Audio(str);
         paper_sound.play();
     });
